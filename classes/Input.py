@@ -2,7 +2,11 @@ import pygame
 from pygame.locals import *
 import sys
 
-
+'''
+UI
+used in Mario.py (entity)
+controls go left/right/jump
+'''
 class Input:
     def __init__(self, entity):
         self.mouseX = 0

@@ -4,6 +4,10 @@ from classes.Animation import Animation
 from classes.Sprite import Sprite
 from classes.Spritesheet import Spritesheet
 
+'''
+contains all characters in the game
+defined/parsed by corresponding json file
+'''
 
 class Sprites:
     def __init__(self):
@@ -18,7 +22,7 @@ class Sprites:
                 "./sprites/RedMushroom.json"
             ]
         )
-
+# load above charactoers in one go so that user see those items in one screen
     def loadSprites(self, urlList):
         resDict = {}
         for url in urlList:

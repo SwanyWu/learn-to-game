@@ -1,3 +1,8 @@
+'''
+defines how to update an img so that user don't get tired of seeing the same img
+so that it seems like it's moving/animated/dynamic instead of static
+'''
+
 class Animation:
     def __init__(self, images, idleSprite=None, airSprite=None, deltaTime=7):
         self.images = images
