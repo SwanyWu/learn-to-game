@@ -11,6 +11,7 @@ from entities.Koopa import Koopa
 from entities.CoinBox import CoinBox
 from entities.RandomBox import RandomBox
 
+# define relative position/level to other entities
 
 class Level:
     def __init__(self, screen, sound, dashboard):
