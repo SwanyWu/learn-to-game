@@ -2,7 +2,10 @@ import pygame
 
 from classes.Font import Font
 
-
+'''
+defines where to draw what in what size
+result: top row of the landing page and game window (MAARIO | COIN | WORLD | TIME)
+'''
 class Dashboard(Font):
     def __init__(self, filePath, size, screen):
         Font.__init__(self, filePath, size)

@@ -4,7 +4,10 @@ import os
 import pygame
 
 from classes.Spritesheet import Spritesheet
-
+'''
+define interaction with main dashboard
+aka: what will happen next when an user press CHOOSE LEVEL | SETTINGS | EXIT
+'''
 
 class Menu:
     def __init__(self, screen, dashboard, level, sound):
